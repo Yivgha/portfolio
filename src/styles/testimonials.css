@@ -1,0 +1,49 @@
+/* Testimonials */
+.testimonialsSection {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: var(--bg-shade);
+}
+
+.sectionsHeading {
+    color: var(--heading-color);
+}
+
+.testimonialsSectionCard {
+    display: flex;
+    padding: 42.6px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 42.6px;
+    flex: 1 0 0;
+    border-radius: 8px;
+    border: 1.33px solid #006b6a;
+}
+
+.testimonialsSectionCardReview {
+    display: flex;
+    align-items: flex-start;
+    gap: 5.33px;
+}
+
+.testimonialsSectionCardAuthorDetail {
+    display: flex;
+    align-items: center;
+    gap: 21.3px;
+}
+
+.testimonialsAuthorName {
+    font-weight: 600;
+    color: var(--heading-color);
+}
+
+.testimonialsAuthorDesignation {
+    color: var(--darkblue);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    font-style: italic;
+}
+
+/* Testimonials End */

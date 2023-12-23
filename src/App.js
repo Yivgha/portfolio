@@ -1,24 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Home from "./Pages/Home/HomeScreen";
+import Navbar from "./Pages/Home/Navbar";
+import Footer from "./Pages/Home/Footer";
+import PrivacyPolicy from "./Pages/Privacy/PrivacyPolicy";
+import ErrorPage from "./Pages/404";
+import Terms from "./Pages/Privacy/TermsOfService";
+import Cookies from "./Pages/Privacy/Cookies";
+import "./styles/index";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="privacypolicy" element={<PrivacyPolicy />} />
+          <Route path="termsofservice" element={<Terms />} />
+          <Route path="cookiesettings" element={<Cookies />} />
+          <Route path="*" element={<ErrorPage />}></Route>
+        </Routes>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 

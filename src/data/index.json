@@ -1,0 +1,119 @@
+{
+  "skills": [
+    {
+      "id": "1",
+      "src": "./img/product-chain-1.png",
+      "title": "Front-End",
+      "description": "Vanilla JS, React, HTML, CSS, SCSS, Redux, Redux Toolkit"
+    },
+    {
+      "id": "2",
+      "src": "./img/tag-1.png",
+      "title": "Back-End",
+      "description": "Node.js, Firebase, MongoDB"
+    },
+    {
+      "id": "3",
+      "src": "./img/feather-pen-2.png",
+      "title": "Soft skills",
+      "description": "Time management, creative thinking, active listening"
+    },
+    {
+      "id": "4",
+      "src": "./img/feather-pen-1.png",
+      "title": "Other",
+      "description": "Upper-intermediate English, intermediate German and Polish"
+    }
+  ],
+  "portfolio": [
+    {
+      "id": "1",
+      "src": "./img/newAn.jpg",
+      "title": "Anow Studio",
+      "description": "Basic demo landing page for architects bureau with different interactive elements",
+      "link": "View code on Github",
+      "liveURL": "https://yivgha.github.io/pet-project-Anow/",
+      "url": "https://github.com/Yivgha/pet-project-Anow"
+    },
+    {
+      "id": "2",
+      "src": "./img/icecreamSmall.jpg",
+      "title": "Ice Cream",
+      "description": "Command project for ice cream shop. My part was products section.",
+      "link": "View code on Github",
+      "liveURL": "https://kseniari.github.io/ice-cream-18/",
+      "url": "https://github.com/KseniaRI/ice-cream-18"
+    },
+    {
+      "id": "3",
+      "src": "./img/walletSmall.jpg",
+      "title": "E-wallet",
+      "description": "Command project, e-wallet with transations. My part was add form.",
+      "link": "View code on Github",
+      "liveURL": "https://svetlja4ki.netlify.app/login",
+      "url": "https://github.com/MariaStreltsova/fs44-react-team-proj/tree/main/src/components/AddTransactionModal"
+    },
+    {
+      "id": "4",
+      "src": "./img/catsAPIsmall.jpg",
+      "title": "Cute Cats",
+      "description": "First try with Next.js. Find and like cute cats images, info about breeds, like favourites.",
+      "link": "View code on Github",
+      "liveURL": "https://cute-cats-phi.vercel.app/",
+      "url": "https://github.com/Yivgha/cute-cats/tree/main/catapi"
+    },
+    {
+      "id": "5",
+      "src": "./img/pokeSM.jpg",
+      "title": "Pokemons App",
+      "description": "Find favourite pokemon and data about each of them.",
+      "link": "View code on Github",
+      "liveURL": "https://yivgha.github.io/pokemons/index.html",
+      "url": "https://github.com/Yivgha/pokemons"
+    },
+    {
+      "id": "6",
+      "src": "./img/tictacSM.jpg",
+      "title": "Tic Tac Toe",
+      "description": "Small game only for two people, known around the world.",
+      "link": "View code on Github",
+      "liveURL": "https://chimerical-dragon-dbc3ef.netlify.app/",
+      "url": "https://github.com/Yivgha/tic-tac-toe-game"
+    },
+    {
+      "id": "7",
+      "src": "./img/gymSM.jpg",
+      "title": "Gym Landing",
+      "description": "Landing page for gym created with React, TS and Vite.",
+      "link": "View code on Github",
+      "liveURL": "https://gym-landing.pages.dev/",
+      "url": "https://github.com/Yivgha/gym-landing"
+    }
+  ],
+  "testimonial": [
+    {
+      "id": "1",
+      "count": "5",
+      "src": "./img/diane.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Dianne Russel",
+      "author_designation": "Starbucks"
+    },
+    {
+      "id": "2",
+      "count": "5",
+      "src": "./img/kris-avatar.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Kris Watson",
+      "author_designation": "Louis Vuitton"
+    },
+    {
+      "id": "3",
+      "count": "5",
+      "src": "./img/kate.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Kathryn Murphy",
+      "author_designation": "McDonald's"
+    }
+  ]
+}

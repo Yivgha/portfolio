@@ -1,0 +1,237 @@
+@media only screen and (max-width: 1800px) {
+  .heroSectionTitle {
+    font-size: 68px;
+    line-height: 70px;
+  }
+  .heroSection {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 210px 86px 130px 86px;
+    gap: 32px;
+  }
+
+  .skillsSectionTitle {
+    font-size: 28px;
+    line-height: 40px;
+  }
+  .portfolioSection {
+    padding: 112px 85px;
+    gap: 80px;
+  }
+  .portfolioSectionCard {
+    width: calc(100vw / 4);
+  }
+  .skillsSectionContainer {
+    display: grid;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 43px;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .contactSection {
+    padding: 150px 85px;
+    gap: 64px;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    column-gap: 32px;
+    row-gap: 32px;
+  }
+  .contactFormContainer {
+    width: 60%;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(5, auto);
+    row-gap: 32px;
+  }
+  .testimonialsSection {
+    padding: 112px 84.3px;
+    gap: 80px;
+  }
+  .aboutSection {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 133.33px 85.33px;
+    gap: 114.6px;
+  }
+  .skillsSection {
+    padding: 130px 85.33px;
+    gap: 106.667px;
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  .skillsSectionHeading {
+    font-size: 54px;
+    line-height: 70px;
+  }
+
+  .skillsSectionContainer {
+    gap: 16px;
+  }
+
+  .skillsSectionCard {
+    gap: 28px;
+  }
+
+  .skillsSectionCardContent {
+    gap: 20px;
+  }
+
+  .skillsSectionTitle {
+    font-size: 23px;
+    line-height: 30px;
+  }
+
+  .skillsSectionDescription {
+    font-size: 17.333px;
+    line-height: 27px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .btnOutlinePrimary {
+    display: none;
+  }
+
+  .heroSection {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-bottom: 70px;
+  }
+
+  .heroSectionTitle,
+  .heroSectionDescription,
+  .footerContent {
+    text-align: left;
+  }
+
+  .aboutSection,
+  .portfolioSectionContainer,
+  .portfolioContainerBox,
+  .footerLinkContainer,
+  .footerItems > ul,
+  .footerContentContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .skillsSectionContainer {
+    display: grid;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 43px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .portfolioSectionCard {
+    width: 100%;
+  }
+  .skillsSection,
+  .portfolioContainer,
+  .heroSectionContent,
+  .heroSectionContentBox {
+    align-items: center;
+  }
+
+  .portfolioContainerBox {
+    gap: 30px;
+  }
+
+  .skillsSection,
+  .testimonialSection,
+  .contactSection,
+  .footerContainer {
+    gap: 20px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  .aboutSection {
+    gap: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .testimonialSectionCard {
+    padding: 25px;
+  }
+
+  .heroSectionTitle,
+  .skillsSectionHeading,
+  .sectionsHeading {
+    font-size: 35px;
+    line-height: 40px;
+  }
+
+  .heroSectionContentBox {
+    gap: 10px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .footerSocialIcon > ul,
+  .footerItems > ul {
+    padding: 0;
+    align-items: center;
+  }
+
+  .divider {
+    margin: 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .heroSection {
+    display: flex;
+    padding: 180px 30px 90px 40px;
+    gap: 12px;
+  }
+  .heroSectionTitle {
+    font-size: 44px;
+    line-height: 50px;
+  }
+  .skillsSectionContainer {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 43px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .contactSection {
+    padding: 30px;
+  }
+  .contactFormContainer {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(5, auto);
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .testimonialsSection {
+    padding: 30px 15px;
+    gap: 30px;
+  }
+  .aboutSection {
+    display: flex;
+    gap: 30px;
+  }
+  .skillsSection {
+    padding: 30px;
+    gap: 20px;
+  }
+  .portfolioSection {
+    padding: 40px 15px;
+    gap: 30px;
+  }
+}
