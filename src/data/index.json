@@ -48,7 +48,7 @@
       "id": "3",
       "src": "./img/walletSmall.jpg",
       "title": "E-wallet",
-      "description": "Command project created with HTML, Styled Components, React, Redux, Node.js. My part was add transaction form.",
+      "description": "Command project created with HTML, Styled Components, React, Redux, Node.js.",
       "link": "View code on Github",
       "liveURL": "https://svetlja4ki.netlify.app/login",
       "url": "https://github.com/MariaStreltsova/fs44-react-team-proj/tree/main/src/components/AddTransactionModal"
@@ -66,7 +66,7 @@
       "id": "5",
       "src": "./img/pokeSM.jpg",
       "title": "Pokemons App",
-      "description": "Basic HTML, CSS and JS usage.",
+      "description": "Basic HTML, CSS and JS usage. Render list of pokemons, open one and get data.",
       "link": "View code on Github",
       "liveURL": "https://yivgha.github.io/pokemons/index.html",
       "url": "https://github.com/Yivgha/pokemons"
