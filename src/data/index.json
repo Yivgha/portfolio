@@ -30,7 +30,7 @@
       "id": "1",
       "src": "./img/newAn.jpg",
       "title": "Anow Studio",
-      "description": "Basic demo landing page for architects bureau with different interactive elements",
+      "description": "Basic  landing page with different interactive elements created with HTML, SCSS, JS.",
       "link": "View code on Github",
       "liveURL": "https://yivgha.github.io/pet-project-Anow/",
       "url": "https://github.com/Yivgha/pet-project-Anow"
@@ -39,7 +39,7 @@
       "id": "2",
       "src": "./img/icecreamSmall.jpg",
       "title": "Ice Cream",
-      "description": "Command project for ice cream shop. My part was products section.",
+      "description": "Command project created with HTML, SCSS, JS. My part was products section.",
       "link": "View code on Github",
       "liveURL": "https://kseniari.github.io/ice-cream-18/",
       "url": "https://github.com/KseniaRI/ice-cream-18"
@@ -48,7 +48,7 @@
       "id": "3",
       "src": "./img/walletSmall.jpg",
       "title": "E-wallet",
-      "description": "Command project, e-wallet with transations. My part was add form.",
+      "description": "Command project created with HTML, Styled Components, React, Redux, Node.js. My part was add transaction form.",
       "link": "View code on Github",
       "liveURL": "https://svetlja4ki.netlify.app/login",
       "url": "https://github.com/MariaStreltsova/fs44-react-team-proj/tree/main/src/components/AddTransactionModal"
@@ -57,7 +57,7 @@
       "id": "4",
       "src": "./img/catsAPIsmall.jpg",
       "title": "Cute Cats",
-      "description": "First try with Next.js. Find and like cute cats images, info about breeds, like favourites.",
+      "description": "First and solo try with Next.js. Created with React, Redux.",
       "link": "View code on Github",
       "liveURL": "https://cute-cats-phi.vercel.app/",
       "url": "https://github.com/Yivgha/cute-cats/tree/main/catapi"
@@ -66,25 +66,16 @@
       "id": "5",
       "src": "./img/pokeSM.jpg",
       "title": "Pokemons App",
-      "description": "Find favourite pokemon and data about each of them.",
+      "description": "Basic HTML, CSS and JS usage.",
       "link": "View code on Github",
       "liveURL": "https://yivgha.github.io/pokemons/index.html",
       "url": "https://github.com/Yivgha/pokemons"
     },
     {
       "id": "6",
-      "src": "./img/tictacSM.jpg",
-      "title": "Tic Tac Toe",
-      "description": "Small game only for two people, known around the world.",
-      "link": "View code on Github",
-      "liveURL": "https://chimerical-dragon-dbc3ef.netlify.app/",
-      "url": "https://github.com/Yivgha/tic-tac-toe-game"
-    },
-    {
-      "id": "7",
       "src": "./img/gymSM.jpg",
       "title": "Gym Landing",
-      "description": "Landing page for gym created with React, TS and Vite.",
+      "description": "Landing page for gym created with React, TypeScript (first try) and Vite.",
       "link": "View code on Github",
       "liveURL": "https://gym-landing.pages.dev/",
       "url": "https://github.com/Yivgha/gym-landing"
