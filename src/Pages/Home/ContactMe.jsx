@@ -22,9 +22,10 @@ export default function ContactMe() {
   }
   };
   
-  useEffect(() => emailjs.init(`${process.env.REACT_APP_EMAILJS_API_KEY}`), []);
+  // useEffect(() => , []);
   
   const sendEmail = (e) => {
+    emailjs.init(`${process.env.REACT_APP_EMAILJS_API_KEY}`);
     const serviceId = `${process.env.REACT_APP_EMAILJS_SERVICE_ID}`
     const templateId = `${process.env.REACT_APP_EMAILJS_TEMPLATE_ID}`
     const publicApiKey = `${process.env.REACT_APP_EMAILJS_API_KEY}`
