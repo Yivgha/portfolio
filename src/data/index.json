@@ -30,7 +30,7 @@
       "id": "1",
       "src": "./img/newAn.jpg",
       "title": "Anow Studio",
-      "description": "Basic  landing page with different interactive elements created with HTML, SCSS, JS.",
+      "description": "Basic landing with different interactive elements created with HTML, SCSS, JS.",
       "link": "View code on Github",
       "liveURL": "https://yivgha.github.io/pet-project-Anow/",
       "url": "https://github.com/Yivgha/pet-project-Anow"
@@ -48,7 +48,7 @@
       "id": "3",
       "src": "./img/walletSmall.jpg",
       "title": "E-wallet",
-      "description": "Command project created with HTML, Styled Components, React, Redux, Node.js.",
+      "description": "Command project. HTML, Styled Components, React, Redux, Node.js.",
       "link": "View code on Github",
       "liveURL": "https://svetlja4ki.netlify.app/login",
       "url": "https://github.com/MariaStreltsova/fs44-react-team-proj/tree/main/src/components/AddTransactionModal"

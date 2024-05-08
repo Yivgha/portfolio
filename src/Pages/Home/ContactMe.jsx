@@ -6,8 +6,6 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
   import { Link } from "react-scroll";
 
-
-
 export default function ContactMe() {
   const [disabledBtn, setDisabledBtn] = useState(true);
   const [loading, setLoading] = useState(false);
@@ -23,7 +21,7 @@ export default function ContactMe() {
     setDisabledBtn(true)
   }
   };
-
+  
   useEffect(() => emailjs.init(`${process.env.REACT_APP_EMAILJS_API_KEY}`), []);
   
   const sendEmail = (e) => {
